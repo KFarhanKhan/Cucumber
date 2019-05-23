@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test the user number",
+        "description": "",
+        "id": "user-should-send-number;test-the-user-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11803259733,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on the login page",
+            "match": {
+              "location": "sendStepDefinition.user_should_be_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3331741013,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should clear the number and send send the new one",
+            "match": {
+              "location": "sendStepDefinition.user_should_clear_the_number_and_send_send_the_new_one()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3010360746,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see the new number",
+            "match": {
+              "location": "sendStepDefinition.user_should_see_the_new_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should send number",
+    "description": "",
+    "id": "user-should-send-number",
+    "keyword": "Feature",
+    "uri": "C:/Users/Farhan/Desktop/testing/com.Calculator/src/test/resources/Feature/sendNumber.feature",
+    "tags": []
+  }
+]
